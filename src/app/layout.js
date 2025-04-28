@@ -1,5 +1,11 @@
+import { Metadata } from "next";
+
 export const metadata = {
-  title: 'My App',
+  title: {
+    absolute: "",
+    default: "Next.js Learning",
+    template: "%s | Learning",
+  },
   description: 'This is my Next.js app',
 };
 
